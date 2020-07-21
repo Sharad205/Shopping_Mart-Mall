@@ -1,0 +1,11 @@
+create login html web page
+create registration html web page for new user sign up
+create welcome page for online shopping
+provide category wise different webpage link to welcome page - home page
+create 5 different category wise web page: category-1 : stationary, category-2 : clothes, category-3 : toys,category-4 : shoes and bags, category-5 : grocery
+Link all pages with home page. provide navigation functionality from one page to other, user can move from one category to other during shopping.
+Donot create shopping cart concept.
+include photograph,price, item code to each items in different category.
+
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.26 60.79"><defs><style>.cls-1{fill:#212121;}.cls-2{font-size:31.83px;fill:#fff;font-family:SukhumvitSet-Bold, Sukhumvit Set;font-weight:700;}</style></defs><title>Bag</title><g id="Bag"><rect class="cls-1" y="14.62" width="34.26" height="38.6"/><path class="cls-1" d="M17.47,27.64A9.66,9.66,0,0,1,7.83,18V9.65a9.65,9.65,0,1,1,19.29,0V18A9.66,9.66,0,0,1,17.47,27.64Zm0-24.21a6.22,6.22,0,0,0-6.21,6.22V18a6.22,6.22,0,1,0,12.43,0V9.65A6.23,6.23,0,0,0,17.47,3.43Z"/></g><text class="cls-2" id='cartQTY' transform="translate(9.37 45.7)">1</text></svg>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+
+input:focus {
+  outline: none;
+}
+
+.signup-page-bg,
+.login-page-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  filter:drop-shadow(2px 4px 6px black);
+  position: fixed;
+  top: 1px;
+  background-color: white;
+ 
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+.signup-page-bg{
+   background-image: url(../images/depositphotos_215728572-stock-photo-office-desk-table-business-workplace.jpg);
+   opacity: 0.2;
+   background-color: black;
+}
+.login-page-bg{
+  opacity: 0.3;
+  background-image: url(../images/40008653-office-desk-table-with-computer-supplies-and-coffee-cup-isolated-on-white-background.jpg);
+}
+
+
+.signup-div,
+.login-div{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+#email,#passwd{
+border-top: none;
+border-left: none;
+border-right: none;
+text-align: left;
+font-size: 15px;
+}
+
+.signup-form,
+.login-form{
+  width: 90%;
+  font-size: 21px;
+  text-align: center;
+}
+.signup-form label,
+.login-form label {
+
+  display: block;
+  font-weight: bold;
+  font-family: 'Sora', sans-serif;
+
+}
+.signup-form input,
+.login-form input {
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 30%;
+  height: 2.7rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Sora', sans-serif;
+ 
+}
+.signup-form input:focus,
+.login-form input:focus {
+  border-color: darkorange;
+}
+#user-name,#mobile-no{
+  border-top: none;
+border-left: none;
+border-right: none;
+text-align: left;
+font-size: 15px;
+}
+
+button[type="submit"] {
+  border: 2px solid darkgreen;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  display: block;
+  width: 10rem;
+  padding: 0.5rem;
+  margin: auto;
+  cursor: pointer;
+  background-color: green;
+  transition: all 0.2s ease;
+  font-family: 'Sora', sans-serif;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  box-shadow: 2px 2px 2px gray;
+}
+
+#end-line{
+    margin:0 auto;
+    width: 40%;
+    text-align: center;
+    padding:1rem;
+    font-weight: bolder;
+    color:red ;
+    font-family: 'Sora', sans-serif;
+}
+#end-line a {
+    color:#2c1320ff;
+    transition: all .1s ease-in;
+    font-family: 'Sora', sans-serif;
+}
+#end-line a:active,
+#end-line a:hover{
+    border: 3px solid #BF360C;
+  border-radius: 15px;
+  border-top: none;
+  border-left: none;
+  padding: 1px;
+}
+#tn{
+  right: 50%;
+  font-family: 'Sora', sans-serif;
+  color: green;
+
+}
+#tn:hover{
+  color: brown;
+}

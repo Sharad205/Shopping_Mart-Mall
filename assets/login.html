@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SP-Mall Login</title>
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+
+  <body style="background-color: white;">
+    <div class="login-page-bg"></div>
+
+    <div class="login-div">
+      <form action="" class="login-form">
+        <label for="email">E-mail/Mo. Number </label>
+        <input
+          type="email"
+          name="user_email"
+          id="email"
+          placeholder="EMAIL-ID OR MO. NUMBER"
+        />
+        <label for="passwd"> Password</label>
+        <input
+          type="password"
+          name="user_passwd"
+          id="passwd"
+          required
+          placeholder="PASSWORD"
+        />
+        <text id="tn">Forgot Password</text>
+        <br><br>
+        <button type="submit">Log In</button>
+        <p id="end-line">
+          Don't have an account? <a href="singnup.html">SingUp</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

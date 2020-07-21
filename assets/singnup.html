@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SP-Mall SignUp</title>
+    <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+
+  <body style="background-color: white;">
+    <div class="signup-page-bg"></div>
+    
+    <div class="signup-div">
+      <form action="" class="signup-form">
+        <label for="user-name">Name</label>
+        <input
+          type="text"
+          name="user_name"
+          id="user-name"
+          placeholder="ENTER YOUR NAME"
+        />
+        <label for="mobile-no">Mobile No</label>
+        <input type="text" name="mobile" id="mobile-no" placeholder="MOBILE NO." />
+        <label for="email"> E-mail </label>
+        <input
+          type="email"
+          name="user_email"
+          id="email"
+          placeholder="A VALID EMAIL-ID"
+        />
+        <label for="passwd"> Password</label>
+        <input
+          type="password"
+          name="user_passwd"
+          id="passwd"
+          required
+          placeholder="PASSWORD"
+        />
+        <button type="submit">Sign In</button>
+        <p id="end-line">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
